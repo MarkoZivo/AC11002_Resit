@@ -1,3 +1,23 @@
-.min-cat-size {
-  min-width: 300px
+.cat-size {
+  min-width: 300px;
+  max-width: 49%;
+  padding-bottom: 8px;
+  align: center;
+
+}
+
+@media only screen and (min-width:600px) {
+  .cat-size {
+    min-width: 300px;
+    max-width: 49%;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 600px ) {
+  .cat-size {
+    min-width: 300px;
+    max-width: 100%;
+    display: block;
+  }
 }
