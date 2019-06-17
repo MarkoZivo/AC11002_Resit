@@ -3,8 +3,10 @@
   max-width: 49%;
   padding-bottom: 8px;
   align: center;
-
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
+
 
 @media only screen and (min-width:600px) {
   .cat-size {
@@ -20,4 +22,9 @@
     max-width: 100%;
     display: block;
   }
+}
+
+.cat-size:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
