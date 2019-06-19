@@ -3,6 +3,7 @@
 @import url("vendors/bootstrap.css");
 @import url("layout/sizes.css");
 @import url("pages/projects.css");
+@import url("pages/contactUs.css");
 
 .marko-title {
     font-family: Rage;
