@@ -1,0 +1,5 @@
+.contactContainer {
+  display: grid;
+  grid-gap: 50px;
+  width: 100%
+}
