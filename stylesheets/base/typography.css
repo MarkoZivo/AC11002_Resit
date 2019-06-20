@@ -1,8 +1,17 @@
 .home-title {
-    font-family: Rage;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 700;
-    text-align: left;
-    color: rgb(0, 0, 0);
+  font-family: Rage;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 700;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+
+p {
+  font-family: Verdana,"Lucida Sans Unicode", sans-serif;
+  font-size: 12px;
+  text-align: left;
+  color: rgb(210, 210, 210);
+  text-shadow: 2px 2px #000000;
 }
