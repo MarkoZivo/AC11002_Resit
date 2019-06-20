@@ -7,11 +7,14 @@
   color: rgb(0, 0, 0);
 }
 
+.contact-heading{
+  font-family: Lobster;
+}
 
-p {
+.cat-font {
   font-family: Verdana,"Lucida Sans Unicode", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   text-align: left;
-  color: rgb(210, 210, 210);
-  text-shadow: 2px 2px #000000;
+  color: rgb(100, 100, 100);
+  text-shadow: 2px 2px 20px #000000;
 }

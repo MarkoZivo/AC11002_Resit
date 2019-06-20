@@ -1,7 +1,6 @@
 /* Bootstrap CSS */
 @import url("base/reset.css");
 @import url("vendors/bootstrap.css");
-@import url("layout/sizes.css");
-@import url("pages/projects.css");
-@import url("pages/contactUs.css");
 @import url("base/typography.css");
+@import url("pages/contactUs.css");
+@import url("pages/projects.css");
