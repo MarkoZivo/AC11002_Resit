@@ -1,6 +1,4 @@
 .cat-size {
-  min-width: 300px;
-  max-width: 49%;
   padding-bottom: 8px;
   align: center;
   -webkit-filter: grayscale(100%);
