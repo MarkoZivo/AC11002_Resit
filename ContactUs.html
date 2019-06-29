@@ -54,21 +54,23 @@
       </div>
       <div class="">
         <!--Bootstrap form-->
-        <form action="mailto:mzivojnovic@dundee.ac.uk" method="post" enctype="text/plain">
+        <form action="mailto:mzivojnovic@dundee.ac.uk?" method="get" enctype="text/plain">
           <div class="form-group">
-            <label for="nameInput">Your Name</label>
-            <input type="text" class="form-control inputSize" id="nameInput" placeholder="Input your name">
+            <label for="emailInput">Your e-mail</label>
+            <input type="text" class="form-control inputSize" name="cc" id="emailInput" placeholder="Input your e-mail">
           </div>
           <div class="form-group">
-            <label for="emailInput">Your Email</label>
-            <input type="text" class="form-control inputSize" id="emailInput" placeholder="Input your email">
+            <label for="emailInput">Subject</label>
+            <input type="text" class="form-control inputSize" name="subject" id="emailInput" placeholder="Input subject">
           </div>
           <div class="form-group">
             <label for="messageInput">Your Message</label>
-            <input type="text" class="form-control inputSize" id="messageInput" placeholder="Input your message">
+            <textarea class="form-control inputSize" name="body" id="messageInput" placeholder="Input your message"></textarea>
+            <!-- <input type="text" class="form-control inputSize" name="body" id="messageInput"
+              placeholder="Input your message"> -->
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-          <button type="reset" class="btn btn-primary">Send</button>
+          <button type="submit" class="btn btn-primary">Send</button>
+          <button type="reset" class="btn btn-primary">Reset</button>
         </form>
       </div>
     </div>
