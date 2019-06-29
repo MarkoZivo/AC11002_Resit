@@ -1,0 +1,38 @@
+.staff-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.staff-card-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    min-width: 300px;
+    max-width: 22%;
+    padding-bottom: 20px;
+}
+
+.staff-card-name {
+    font-size: 18pt;
+}
+
+.staff-card-title {
+    font-size: 14pt;
+}
+
+.staff-card-bio {
+    font-size: 10pt;
+}
+
+.staff-photo-container {
+    grid-row: 1 / span 3;
+}
+
+.staff-photo {
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+}
