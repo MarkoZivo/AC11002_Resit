@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+  <title>Contact Us</title>
+</head>
+
+<body>
+  <!--Bootstrap navbar-->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Cat Photo Inc</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Home.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Staff.html">Staff</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="ContactUs.html" tabindex="-1" aria-disabled="true">Contact us<span
+              class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<main>
+  <!--Bootstrap slideshow-->
+  <section>
+    <div class="contact-container">
+      <div class="contact-heading">
+        <div class="cat-center">
+          <h1 class="">Cat Photo Inc</h1>
+          <ul class="cat-font list-center">
+            <li>Name: Marko</li>
+            <li>Surname: Zivojnovic</li>
+            <li>Email: mzivojnovic@dundee.ac.uk</li>
+            <li>ID No.: 180009361</li>
+          </ul>
+        </div>
+      </div>
+      <div class="">
+        <!--Bootstrap form-->
+        <form action="mailto:mzivojnovic@dundee.ac.uk?" method="get" enctype="text/plain">
+          <div class="form-group">
+            <label for="emailInput">Your e-mail</label>
+            <input type="text" class="form-control inputSize" name="cc" id="emailInput" placeholder="Input your e-mail">
+          </div>
+          <div class="form-group">
+            <label for="emailInput">Subject</label>
+            <input type="text" class="form-control inputSize" name="subject" id="emailInput" placeholder="Input subject">
+          </div>
+          <div class="form-group">
+            <label for="messageInput">Your Message</label>
+            <textarea class="form-control inputSize" name="body" id="messageInput" placeholder="Input your message"></textarea>
+            <!-- <input type="text" class="form-control inputSize" name="body" id="messageInput"
+              placeholder="Input your message"> -->
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+          <button type="reset" class="btn btn-primary">Reset</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
